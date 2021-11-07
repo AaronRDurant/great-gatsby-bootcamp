@@ -11,6 +11,7 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       }
     },
+    "gatsby-remark-images-contentful",
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",

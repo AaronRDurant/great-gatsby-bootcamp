@@ -17,7 +17,7 @@ const Footer = () => {
     <p className={footer}>
       Made with
       <span role="img" aria-label="Pancakes emoji" className={pancakes}> 🥞 </span>
-      by {data.site.siteMetadata.author} in 2021.
+      by {data.site.siteMetadata.author} in {new Date().getFullYear()}.
     </p>
   )
 }
