@@ -7,9 +7,9 @@ const HomePage = () => {
   return (
     <Layout>
       <Head title="Home" />
-      <h2>Hello.</h2>
-      <h3>I'm Aaron, a web developer living in Michigan.</h3>
-      <p>Need a developer? <Link to="/contact">Get in touch</Link>.</p>
+      <h2>Howdy.</h2>
+      <p>My name is Aaron Durant. I'm a web developer in Michigan.</p>
+      <p>I made this simple Gatsby website while watching The Great Gatsby Bootcamp from Andrew Mead on YouTube.</p>
     </Layout>
   )
 }
